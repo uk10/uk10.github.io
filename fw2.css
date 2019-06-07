@@ -1,0 +1,24 @@
+body
+{
+	background: url(54.jpg) center;
+
+}
+.cll
+{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.btn
+{
+	border-radius:200px;
+	background-color: red;
+	transition: all 0.75s;
+}
+.btn-dark:hover
+{
+	transform: scale(1.1);
+	border-width: 5px;
+  	cursor: pointer;
+  	background-color: green;
+}

@@ -1,0 +1,56 @@
+body
+{
+	background: url(go.jpg) center;
+	border-left: 10px solid darkblue;
+	text-align: left;
+}
+
+h1
+{
+	text-align:center;
+	color: #FFFF3A;
+}
+img
+{
+	height: 300px;
+	width : 450px;
+	transition: all 1s;
+	padding:15px;
+	margin: 0 auto;
+}
+img:hover
+{
+
+	transform: scale(1.1); 
+}
+.img
+{
+	display : flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#bt
+{
+	display: flex;
+	justify-content: flex-end;
+}
+.btn
+{
+	font-weight: 700;
+  	text-transform: uppercase;
+  	border-radius: 300px;
+  	font-family: 'Montserrat', sans-serif;
+}
+.btn-primary 
+{
+  	background-color: #F05F44;
+  	border-color: #F05F44; 
+}
+
+.btn-primary:hover 
+{
+  	background-color: #ee4b08;
+  	border-color: #ee4b08;
+  	border-width: 5px;
+  	cursor: pointer;
+}
